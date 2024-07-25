@@ -6,12 +6,12 @@ Bu proje, basit bir Spring Boot uygulaması olarak geliştirilmiş bir Çalışa
 
 Uygulama, çalışanları eklemek, listelemek, güncellemek ve silmek için RESTful endpoint'ler sağlar. Veri tabanı olarak H2 kullanıldı.
 
-# Kullanım
-# GET /api/employees: Tüm çalışanları listelemek için.
-# GET /api/employees/{id}: Belirli bir çalışanı ID ile getirmek için.
-# POST /api/employees: Yeni bir çalışan eklemek için.
-# PUT /api/employees/{id}: Var olan bir çalışanı güncellemek için.
-# DELETE /api/employees/{id}: Bir çalışanı silmek için.
+## Kullanım
+### GET /api/employees: Tüm çalışanları listelemek için.
+### GET /api/employees/{id}: Belirli bir çalışanı ID ile getirmek için.
+### POST /api/employees: Yeni bir çalışan eklemek için.
+### PUT /api/employees/{id}: Var olan bir çalışanı güncellemek için.
+### DELETE /api/employees/{id}: Bir çalışanı silmek için.
 
 # H2 Konsoluna Erişim
 H2 veri tabanı konsoluna erişmek için: http://localhost:8080/h2-console
